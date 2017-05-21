@@ -9,10 +9,10 @@ function TopJawClick()
 
 function tjImgClick_onMouseDown(){
     console.log('down')
-    document.getElementById('tjImgClick').src = 'file:///E:/Share/projects/TopJawMiner/TopJawMinerSpriteDn.png'
+    document.getElementById('tjImgClick').src = 'TopJawMinerSpriteDn.png'
 }
 
 function tjImgClick_onMouseUp(){
     console.log('up')
-    document.getElementById('tjImgClick').src = 'file:///E:/Share/projects/TopJawMiner/TopJawMinerSprite.png'
+    document.getElementById('tjImgClick').src = 'TopJawMinerSprite.png'
 }
