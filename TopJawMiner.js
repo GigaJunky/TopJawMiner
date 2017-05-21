@@ -14,5 +14,5 @@ function tjImgClick_onMouseDown(){
 
 function tjImgClick_onMouseUp(){
     console.log('up')
-    document.getElementById('tjImgClick').src = 'TopJawMinerSprite.png'
+    document.getElementById('tjImgClick').src = 'TopJawMinerSpriteUp.png'
 }
