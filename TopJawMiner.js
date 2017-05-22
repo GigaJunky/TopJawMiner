@@ -30,6 +30,14 @@ function tjImgClick_onMouseUp(){
 
 function cloneImage () {
     imageA = new Image();
-    imageA.src = 'TopJawMinerSpriteUp.png'
+    imageA.src = 'tjHelpers.gif'
     document.getElementById("helpers").appendChild(imageA);
+}
+
+
+function Loop() {
+setInterval(function() {
+    TopJawClick()
+    console.log('loop')
+},500);
 }
